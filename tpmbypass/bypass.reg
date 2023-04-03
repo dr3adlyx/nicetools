@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+; Thanks to Deskmodder!
+; Execute as Administrator.
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+"AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001 ; Allows Upgrades with an unsupported TPM Module or CPU, ignore the warning in the installer.
